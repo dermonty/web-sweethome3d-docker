@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  sweethome3d:
+    build: .
+    ports:
+      - 5800:5800
